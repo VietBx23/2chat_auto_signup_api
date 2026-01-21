@@ -5,13 +5,13 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
-    "@cemalgnlts/mailjs": "^3.1.1",
-    "axios": "^1.13.2",
-    "browsers": "^1.0.2",
-    "chrome": "^0.1.0",
-    "express": "^5.2.1",
-    "install": "^0.13.0",
-    "puppeteer": "^24.35.0"
+    "express": "^4.19.2",
+    "axios": "^1.6.8",
+    "puppeteer-core": "^23.7.0",
+    "@sparticuz/chromium": "^123.0.0"
   }
 }
